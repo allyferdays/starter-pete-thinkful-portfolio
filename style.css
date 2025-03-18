@@ -76,3 +76,27 @@ footer {
 hr {
   border: 1px solid black;
 }
+
+/* Portfolio Section */
+.portfolio {
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+  flex-wrap: wrap;
+  text-align: center;
+}
+
+.portfolio-item {
+  width: 30%; /* Three items per row */
+  text-align: center;
+}
+
+.portfolio-item img {
+  width: 100%;
+  max-width: 300px; /* Image size adjustment */
+}
+
+.portfolio-item p {
+  font-size: 14px;
+  color: #003049;
+}
