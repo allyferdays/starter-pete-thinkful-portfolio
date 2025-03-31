@@ -5,165 +5,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Pete Thinkful</title>
-    
-    <!-- Import Google Fonts -->
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
     />
-
-    <style>
-      /* Importing Fonts */
-      @import url("https://fonts.googleapis.com/css2?family=Playfair+Display&family=Source+Sans+Pro:wght@400&display=swap");
-
-      /* General Styles */
-      body {
-        background-color: #eae2b7;
-        color: #003049;
-        font-family: "Source Sans Pro", Tahoma, Geneva, Verdana, sans-serif;
-        padding: 40px;
-      }
-
-      /* Headings */
-      h1, h2, h3 {
-        font-family: "Playfair Display", Times, serif;
-      }
-
-      /* Header */
-      header {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        padding: 15px 30px;
-        background-color: #eae2b7;
-      }
-
-      header h1 {
-        margin: 0;
-        font-size: 24px;
-        text-align: left;
-      }
-
-      /* Navigation */
-      nav {
-        display: flex;
-        gap: 20px;
-      }
-
-      nav a {
-        text-decoration: none;
-        color: #003049;
-        font-size: 18px;
-        font-weight: bold;
-        padding: 5px 10px;
-      }
-
-      nav a:hover {
-        color: #f77f00;
-      }
-
-      /* About Section */
-      .about-container {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        gap: 30px;
-        flex-wrap: wrap;
-        text-align: left;
-      }
-
-      .about-container img {
-        width: 200px;
-        height: auto;
-        border-radius: 50%;
-      }
-
-      .about-text {
-        flex: 1;
-        max-width: 400px;
-      }
-
-      .about-text h3 {
-        text-align: center;
-      }
-
-      .about-text p {
-        text-align: left;
-      }
-
-      #about {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-      }
-
-      /* Containers */
-      article {
-        padding: 50px 0;
-      }
-
-      /* Paragraphs */
-      p {
-        line-height: 1.5;
-      }
-
-      /* Links */
-      a:link {
-        color: #d62828;
-      }
-
-      a:hover {
-        color: #f77f00;
-      }
-
-      /* Images */
-      img {
-        width: 100%;
-        max-width: 200px;
-        height: auto;
-      }
-
-      .image-circle {
-        border: 2px solid #003049;
-        border-radius: 50%;
-      }
-
-      /* Footer */
-      footer {
-        text-align: center;
-      }
-
-      /* Other page elements */
-      hr {
-        border: 1px solid black;
-      }
-
-      /* Portfolio Section */
-      .portfolio {
-        display: flex;
-        justify-content: space-between;
-        gap: 30px;
-        flex-wrap: wrap;
-        text-align: center;
-      }
-
-      .portfolio-item {
-        width: 30%;
-        text-align: center;
-      }
-
-      .portfolio-item img {
-        width: 100%;
-        max-width: 300px;
-      }
-
-      .portfolio-item p {
-        font-size: 14px;
-        color: #003049;
-      }
-    </style>
+    <link href="style.css" rel="stylesheet" type="text/css" />
   </head>
-  
   <body>
     <!-- Header section -->
     <header>
@@ -180,23 +27,27 @@
         <!-- About section -->
         <article id="about">
           <h2>About</h2>
-
-          <section class="about-container">
-            <img class="image-circle" src="images/pete-thinkful.png" alt="Pete Thinkful" />
-            
-            <div class="about-text">
-              <h3>Hi! I'm Pete Thinkful</h3>
-              <p>I'm an artist living in Denver, Colorado.</p>
-              <p>As an artist, I'm interested in:</p>
-              <ul>
-                <li>Producing abstract art</li>
-                <li>Creating street graffiti art</li>
-                <li>Connecting with like-minded artists</li>
-              </ul>
-              <p>
-                Please feel free to take a look at my website and 
-                <a href="#contact">contact me</a>.
-              </p>
+          <section>
+            <h3>Hi! I'm Pete Thinkful</h3>
+            <div class="about-container">
+              <img
+                class="image-circle"
+                src="images/pete-thinkful.png"
+                alt="Pete Thinkful"
+              />
+              <div>
+                <p>I'm an artist living in Denver, Colorado.</p>
+                <p>As an artist, I'm interested in:</p>
+                <ul>
+                  <li>Producing abstract art</li>
+                  <li>Creating street graffiti art</li>
+                  <li>Connecting with like-minded artists</li>
+                </ul>
+                <p>
+                  Please feel free to take a look at my website and feel free to
+                  <a href="#contact">contact me</a>.
+                </p>
+              </div>
             </div>
           </section>
 
